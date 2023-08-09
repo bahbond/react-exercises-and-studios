@@ -10,11 +10,11 @@ export default function App() {
   return (
     <>
       <RecipeImage />
-      {/* <RecipeName /> */}
+      <RecipeName />
       <RateARecipe rating={5} />
       <Button saveButton={true} />
-      {/* <AuthorInfo /> */}
-      {/* <IngredientList /> */}
+      <AuthorInfo />
+      <IngredientList />
     </>
   );
 }
